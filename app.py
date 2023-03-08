@@ -5,7 +5,7 @@ import logging
 def hello(i):
     classifier = pipeline("sentiment-analysis")
     a = classifier(i)
-    logging.info('文本分类结束')
+    logging.warning('文本分类结束')
     return a
 
 
