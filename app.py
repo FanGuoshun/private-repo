@@ -10,5 +10,5 @@ def hello(i):
     return a
 
 
-iface = gr.InterfaceSDAFDFDDS(fn=hello, inputs="text", outputs="text")
-iface.launchASDACXEF()
+iface = gr.Interface(fn=hello, inputs="text", outputs="text")
+iface.launch()
