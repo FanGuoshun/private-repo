@@ -8,5 +8,7 @@ def hello(i):
     logging.warning('文本分类结束pvc')
     return a
 
+
+
 iface = gr.Interface(fn=hello, inputs="text", outputs="text")
 iface.launch()
