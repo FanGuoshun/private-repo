@@ -5,14 +5,8 @@ import logging
 def hello(i):
     classifier = pipeline("sentiment-analysis")
     a = classifier(i)
-    logging.warning('文本分类结束pvc更新时间')
+    logging.warning('文本分类结束pvc更新时间分支')
     return a
-
-
-
-
-
-
 
 
 
