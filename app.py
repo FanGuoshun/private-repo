@@ -3,10 +3,8 @@ import gradio as gr
 import logging
 
 def hello(i):
-    classifier = pipeline("sentiment-analysis")
-    a = classifier(i)
-    logging.warning('文本分类结束pvc更新时间分支')
-    return a
+    logging.warning('这是test2分支')
+    return "这是test2分支"
 
 
 
