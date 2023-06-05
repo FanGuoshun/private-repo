@@ -9,4 +9,6 @@ def hello(i):
 
 
 iface = gr.Interface(fn=hello, inputs="text", outputs="text")
+iface.inputs["text"].set_textarea_rows(100)
+iface.outputs["text"].set_textarea_rows(100)
 iface.launch()
