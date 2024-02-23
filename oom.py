@@ -1,6 +1,8 @@
 from transformers import pipeline
 import gradio as gr
 import logging
+import numpy as np
+
 
 def hello(i):
      # 尝试创建一个巨大的numpy数组
